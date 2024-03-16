@@ -19,66 +19,6 @@ header {
   border-bottom: 1px solid #b6b1b1;
 }
 
-.shoe_logo {
-  height: 55px;
-}
-
-.logo_container {
-  margin-left: 4%;
-}
-
-.action_bar {
-  margin-right: 4%;
-}
-
-
-.search_bar {
-  height: 40px;
-  min-width: 200px;
-  width: 30%;
-  display: flex;
-  align-items: center;
-}
-
-.search_icon {
-  box-sizing: content-box;
-  height: 20px;
-  padding: 10px;
-  background-color: #f5f5f6;
-  color: #282c3f;
-  border-radius: 4px 0 0 4px;
-}
-
-.search_input {
-  color: #696e79;
-  background-color: #f5f5f6;
-  flex-grow: 1;
-  height: 40px;
-  border: 0;
-  border-radius: 0 4px 4px 0;
-}
-
-.action_bar {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.action_bar a {
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 15px;
-  font-weight: 700;
-  padding: 10px;
-  align-items: center;
-}
-
-.cart-item-count {
-  color: red;
-  border-radius: 50%;
-}
-
 /* navbar */
 .nav {
   display: block;
@@ -88,7 +28,7 @@ header {
 
 .nav_bar {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   background-color: #282c3f;
   text-align: center;
   color: #ffffff;
@@ -100,7 +40,7 @@ header {
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 15px 0;
+  padding: 15px;
   color: #ffffff;
   border-bottom: 5px solid #282c3f;
 }
