@@ -71,100 +71,6 @@ header {
 }
 
 
-.banner_container {
-  margin: 30px 0;
-  width: 100%;
-  height: 400px;
-  text-align: center;
-
-}
-
-.banner_container img {
-
-  width: 90%;
-  height: 100%;
-
-}
-
-/* -----------Products Feature--------- */
-.main h1 {
-  text-align: center;
-}
-
-.items-container {
-  width: 90%;
-  margin: 30px 5%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  border-bottom: 1px solid black;
-}
-
-
-
-.item-container {
-  margin-top: 5px;
-  width: 180px;
-  margin: 5px;
-  border: 1px solid lightgray;
-
-}
-
-.item-image {
-  width: 100%;
-  height: 50%;
-}
-
-.rating {
-  font-size: 12px;
-  font-weight: 700;
-}
-
-.company-name {
-  margin-top: 15px;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1;
-  color: #282c3f;
-  margin-bottom: 6px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.item-name {
-  color: #535766;
-  font-size: 14px;
-  line-height: 1;
-  margin-bottom: 0;
-  margin-top: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  font-weight: 500;
-  display: block;
-}
-
-.price {
-  margin-top: 10px;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 15px;
-  color: #282c3f;
-  white-space: nowrap;
-}
-
-
-.btn-add-cart {
-  margin-top: 8px;
-  font-size: 18px;
-  width: 100%;
-  background-color: lightgreen;
-  border: none;
-  padding: 5px 15px;
-  border-radius: 10px;
-  cursor: pointer;
-}
 
 
 
@@ -277,84 +183,8 @@ header {
   border-radius: 5px;
 }
 
-/* product page */
 
 
-/* Mycart page */
-#mycart {
-  display: flex;
-  text-align: center;
-  margin: 20px;
-  background-color: #ffffff;
-
-}
-
-#mycart table {
-  display: flex;
-  margin: 10px 10px 10px 35px;
-  width: 90%;
-  font-size: 1.5rem;
-}
-
-#mycart table th,
-td {
-  padding: 10px;
-  border-bottom: 1px solid lightblue;
-}
-
-#mycart table img {
-  height: 55px;
-  width: 80px;
-}
-
-.totalAmount {
-  display: flex;
-  justify-content: end;
-  padding-right: 50px;
-  margin: 10px;
-}
-
-.totalAmount h3 {
-  text-align: left;
-  font-size: 25px;
-  width: 500px;
-}
-
-.totalAmount button {
-  padding: 5px;
-  font-size: 15px;
-  font-weight: 700;
-  color: #ffffff;
-  background-color: #da4f49;
-  border: none;
-  border-radius: 5px;
-  width: 100px;
-  cursor: pointer;
-}
-
-.purchase {
-  margin: 20px;
-  text-align: end;
-  padding-right: 50px;
-}
-
-.purchase button,
-.purchase a {
-  background-color: #282c3f;
-  color: #ffffff;
-  font-size: 15px;
-  font-weight: 700;
-  padding: 10px 15px 10px 15px;
-  margin-left: 10px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-
-}
-
-.purchase a {
-  text-decoration: none;
-}
 
 
 /* Responsive styles */
@@ -363,9 +193,6 @@ td {
     display: none;
   }
 
-  .search_bar {
-    width: 90%;
-  }
 
   .nav_bar a {
     border-bottom: 5px solid #ffffff;
