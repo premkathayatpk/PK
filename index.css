@@ -70,12 +70,19 @@ header {
   display: block;
 }
 
+#home {
+  display: flex;
+}
 
+.intro {
+  margin: 100px 0 0 10px;
+  width: 400px;
+}
 
 .myphoto {
-  margin-left: 300px;
-  text-align: center;
-  width: 400px;
+  display: flex;
+  justify-content: right;
+  padding-right: 50px;
 }
 
 .myphoto img {
