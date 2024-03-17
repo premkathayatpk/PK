@@ -72,6 +72,17 @@ header {
 
 
 
+.myphoto {
+  margin-left: 300px;
+  text-align: center;
+  width: 400px;
+}
+
+.myphoto img {
+  border: 30px solid rgb(26, 158, 210);
+  border-radius: 50%;
+}
+
 
 
 
