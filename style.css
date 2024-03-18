@@ -235,49 +235,7 @@ nav li:hover {
   border-bottom: 4px solid #0089b7;
 }
 
-#contact h2 {
-  font-size: 6rem;
-  text-align: center;
-  margin: 2rem 0;
-}
 
-#contact .container {
-  height: 90vh;
-  display: flex;
-  flex-direction: column;
-  gap: 4rem;
-  justify-content: center;
-}
-
-.top_contact {
-  max-width: 800px;
-  display: grid;
-  margin: 0 auto;
-  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
-}
-
-.contact_way {
-  display: flex;
-  gap: 1rem;
-  align-items: center;
-}
-
-.contact_way i {
-  font-size: 3rem;
-}
-
-.contact_way h3 {
-  font-size: 3rem;
-  font-weight: bold;
-}
-
-.bottom_contact {
-  max-width: 400px;
-  gap: 1rem;
-  display: grid;
-  margin: 0 auto;
-  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
-}
 
 /* Footer */
 
