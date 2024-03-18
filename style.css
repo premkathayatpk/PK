@@ -97,6 +97,8 @@ nav li:hover {
 
 .my_image img {
   border-radius: 50%;
+  border: 20px solid rgb(23, 248, 218);
+
 }
 
 #home h1 {
@@ -234,11 +236,13 @@ nav li:hover {
   background-color: #003d62;
   border-bottom: 4px solid #0089b7;
   text-align: center;
+  padding: 10px;
 }
 
 #contact img {
   margin-top: 10px;
   margin-left: 10px;
+  padding-top: 10px;
   height: 50px;
   border-radius: 5px;
 }
